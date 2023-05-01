@@ -1,0 +1,146 @@
+#body{
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar{
+    height: 70px;
+    background-color: burlywood;
+    padding: 0;
+}
+
+#h1{
+    text-align: center;
+    margin: 0;
+}
+
+#section{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 250px;
+}
+
+#advice{
+    width: 100%;
+    background-color: burlywood;
+}
+
+.size{
+    width: 50%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+#game-view{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center; 
+    width: 80vw;
+    background-color: whitesmoke;
+    margin: 20px auto;
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.div:hover{
+    background-color: #cfe3ff;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.no-scroll{
+    overflow: hidden;
+}
+
+#modal-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#modal-view div img{
+    width: 200px;
+    height: 280px;
+}
+
+.container-modale{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 700px;
+    border-radius: 10px;
+}
+
+#giveaway, #game-view{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 80vw;
+    background-color: whitesmoke;
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 500px){
+    #modal-view, #giveaway, #game-view{
+        font-size: 0.8em;
+    }
+
+    #giveaway h4{
+        font-size: 0.6em;
+    }
+
+    #modal-view div img{
+        width: 100px;
+        height: 140px;
+    }
+}
+
+#giveaway div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+#giveaway div:hover{
+    background-color: #cfe3ff;
+}
+
+#giveaway div img{
+    width: 30%;
+    height: 30%;
+}
+
+#giveaway div h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
